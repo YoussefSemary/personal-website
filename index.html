@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youssef Mohammed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input type="checkbox" class="burger-menu__checkbox" id="menu" />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__links navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__links navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__links navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__links navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__links navigation__clients"
+                >My clients</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section class="bio section" id="bio">
+        <div class="bio__main">
+          <h1 class="bio__heading">
+            Hi There , I'm a Passionate <br />Software <br />
+            Engineer.
+          </h1>
+          <p class="bio__content">
+            My name is <span class="bio__name">Youssef Mohammed</span>, a
+            Communication and Computer Engineering Student,and Web developer and
+            here's my social links.
+            <a
+              href="https://www.facebook.com/profile.php?id=100009926737767&locale=ar_AR"
+              class="bio__facebook"
+              target="_blank"
+              >Facebook</a
+            >
+            <a
+              href="https://www.linkedin.com/in/youssef-semary-1a258333a/"
+              class="bio__linkedin"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a
+              href="https://x.com/YoussefSemary03"
+              class="bio__x"
+              target="_blank"
+              >X</a
+            >
+            <a
+              href="https://www.instagram.com/usefsemary03/"
+              class="bio__instagram"
+              target="_blank"
+              >Instagram</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="#" class="bio__links download-cv-link"
+            >Download My CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img class="bio__pic" src="me-removebg.png" alt="Youssef Mohammed" />
+        </div>
+      </section>
+
+      <section class="skills section section--with-bg" id="skills">
+        <h2 class="h2--heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__list-item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__list-item">
+            <h2 class="skills__title">JavaScript</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__list-item">
+            <h2 class="skills__title">Python</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__list-item">
+            <h2 class="skills__title">ReactJs</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__list-item">
+            <h2 class="skills__title">C</h2>
+            <span class="skills__years">2 year</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="media" id="media">
+        <video src="video.mp4" class="media__video" controls></video>
+      </section>
+
+      <section class="projects section section--with-bg" id="projects">
+        <h2 class="h2--heading">My featured <br />Projects</h2>
+        <div class="project__main">
+          <img
+            src="Screenshot 2025-02-06 181823.png"
+            alt="project Lobe website"
+            class="project__1-picture"
+          />
+          <div class="project__content">
+            <h3 class="h3-heading">Lobe Website</h3>
+            <p class="project__paragraph">
+              Lope website that was a training project for me where I used HTML
+              and CSS and I used CSS grid to have the perfect layouts for the
+              website.
+            </p>
+          </div>
+          <div class="project__content">
+            <h3 class="h3-heading">Links Page</h3>
+            <p class="project__paragraph">
+              A links page that I need to share my contact links, and also was a
+              training project that helped me getting into CSS more and more
+            </p>
+          </div>
+          <img
+            src="Screenshot 2025-02-06 181957.png"
+            alt="links page"
+            class="project__2-picture"
+          />
+        </div>
+      </section>
+      <section class="clients section section--with-bg" id="clients">
+        <h2 class="h2--heading">What My <br />Clients Say</h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              "A highly motivated and detail-oriented developer with a strong
+              foundation in Python and front-end technologies. Passionate about
+              building functional and user-friendly applications."
+            </p>
+            <p class="clients__opinion">
+              "Demonstrates excellent problem-solving skills and a keen eye for
+              design, making projects not only efficient but also visually
+              appealing and user-friendly."
+            </p>
+            <p class="clients__opinion">
+              "Continuously learning and improving, with a solid grasp of Git,
+              GitHub, and project-based development. A future web developer with
+              a strong work ethic and determination to succeed."
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <div class="contact__content">
+          <p class="contact__description">
+            I'm always excited to connect with like-minded individuals,
+            collaborate on new projects, and explore opportunities in web
+            development. Whether you have a project idea, a question, or just
+            want to chat about coding, feel free to reach out! Let’s build
+            something amazing together.
+          </p>
+          <a href="mailto:eng.youssef.semary@gmail.com" class="contact__email"
+            >eng.youssef.semary@gmail.com</a
+          ><br />
+          <a
+            href="https://www.facebook.com/profile.php?id=100009926737767&locale=ar_AR"
+            class="contact__icons"
+          >
+            <img src="facebook.svg" alt="Facebook Icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/youssef-semary-1a258333a/"
+            class="contact__icons"
+            ><img src="LinkedIn.svg" alt="Facebook Icon"
+          /></a>
+          <a href="https://x.com/YoussefSemary03" class="contact__icons"
+            ><img src="twitter.svg" alt="Twitter Icon"
+          /></a>
+          <a href="https://github.com/YoussefSemary" class="contact__icons"
+            ><img src="github.svg" alt="GitHUb Icon"
+          /></a>
+          <a href="#" class="contact__icons"
+            ><img src="youtube.svg" alt="YouTube Icon"
+          /></a>
+          <a
+            href="https://www.instagram.com/usefsemary03/"
+            class="contact__icons"
+            ><img src="instagram.svg" alt="Instagram Icon"
+          /></a>
+        </div>
+        <div class="contact__form">
+          <h2 class="h2--heading">Let's Work Together</h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                name="Full Name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                name="Phone NUmber"
+                required
+              />
+            </div>
+            <textarea
+              class="contact__textarea contact__input"
+              name="description"
+              id="description"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">&copy 2025 by Youssef Mohammed</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.project__main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 13rem;
+  row-gap: 7.5rem;
+}
+.project__paragraph {
+  margin-top: 2rem;
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+.project__content {
+  align-self: center;
+}
